@@ -1,0 +1,20 @@
+.number {
+    background-color: rgb(238, 142, 142);
+    font-family: Verdana, "Dejavu Sans", sans-serif;
+    
+}
+
+#par1 {
+    color:blue;
+    font-size: 36px;
+}
+
+#par2{
+ background-color:lightgreen;
+ font-size: 24px;
+ font-weight: bold;
+}
+
+.third{
+    font-size: 24px;
+}

@@ -15,11 +15,57 @@ body {
   justify-content: center;
 }
 
+.container{
+  display:flex;
+  flex-direction: column;
+
+}
+
 .modal {
   background: white;
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display:flex;
+  justify-content: space-between;
+  padding:10px;
+  border: 2px;
+border-color: black; 
+}
+
+.container-icon
+{
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+  padding: 10px;
+}
+
+.container-header{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:10px;
+     
+}
+
+.container-buttons{
+  display: flex;
+  justify-content: flex-start;
+  padding:10px;
+}
+
+.header{
+  font-weight: bold;
+  font-size: 20px;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 0;
+}
+
+.text{
+padding:10px;
+
 }
 
 .icon {
@@ -33,6 +79,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 }
 
 .close-button {
@@ -54,6 +101,7 @@ button {
   cursor: pointer;
   padding: 8px 16px;
   border-radius: 8px;
+  margin:5px;
 }
 
 button.continue {
